@@ -205,13 +205,13 @@ export default {
 
       /**
        * Player is active, but user has paused.
-       */
-      if (this.playerResponse.is_playing === false) {
-        this.playerData = this.getEmptyPlayer()
+       
+		* if (this.playerResponse.is_playing === false) {
+       * this.playerData = this.getEmptyPlayer()
 
-        return
-      }
-
+      *  return
+      *}
+	*/
       /**
        * The newly fetched track is the same as our stored
        * one, we don't want to update the DOM yet.
