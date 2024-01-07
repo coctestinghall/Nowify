@@ -3,7 +3,8 @@
     <h1 class="authorise__heading">Nowify</h1>
 
     <p class="authorise__copy">
-      Hola! Inicia sessió per a continuar.
+      Hola! Benvingut o benvinguda a una adaptació de Nowify. 
+	  Sisplau, inicia sessió per a continuar.
     </p>
 
     <button
