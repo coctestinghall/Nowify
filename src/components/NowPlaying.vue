@@ -95,8 +95,8 @@ export default {
          * The connection was successful but there's no content to return.
          */
         if (response.status === 204) {
-          data = this.getEmptyPlayer()
-          this.playerData = data
+          //data = this.getEmptyPlayer()
+          //this.playerData = data
 
           this.$nextTick(() => {
             this.$emit('spotifyTrackUpdated', data)
