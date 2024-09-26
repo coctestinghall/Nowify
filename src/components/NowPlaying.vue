@@ -94,7 +94,7 @@ export default {
          * Spotify returns a 204 when no current device session is found.
          * The connection was successful but there's no content to return.
          */
-        if (response.status === 204 && data.playerData.tracktitle == '') {
+        if (response.status === 204 && this.playerData.tracktitle == '') {
           data = this.getEmptyPlayer()
           this.playerData = data
 
